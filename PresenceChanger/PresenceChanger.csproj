@@ -65,7 +65,7 @@
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-        <Exec Command="copy &quot;.\bin\Debug\PresenceCustomizer.dll&quot; &quot;C:\Program Files (x86)\Steam\steamapps\common\ChilloutVR\Mods&quot;" />
+        <Exec Command="copy &quot;.\bin\Debug\PresenceChanger.dll&quot; &quot;C:\Program Files (x86)\Steam\steamapps\common\ChilloutVR\Mods&quot;" />
     </Target>
 
 </Project>
