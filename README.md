@@ -16,6 +16,10 @@ These mods have no affiliation with and are not endorsed by Alpha Blend Interact
 
 # Mods
 
+### StopFlying
+If you toggle flying before loading into another world most of the time you continue flying.\
+This mod disables your flying when you load into a world. 
+
 ### Presence Changer
 
 kinda misleading for now but eh
