@@ -17,6 +17,8 @@ These mods have no affiliation with and are not endorsed by Alpha Blend Interact
 # Mods
 
 ### Presence Changer
+
+kinda misleading for now but eh
 - Allows you to change or turn off CVR's built in Discord rich presence.
 
 Currently implemented:
@@ -26,6 +28,10 @@ Currently implemented:
 Coming later:
 - Large/Small Image Keys & Text, persist after game changes them again (world switch, etc)
 - String templating and Buttons may be implemented in the future if I have time. Pull Requests are always welcome. 
+
+
+---
+
 
 ### [OBS Control](https://github.com/aniiiiiimal/obscontrol)
 An WIP port of my VRChat mod, which is a somewhat-port of a beat saber mod with the same name\
