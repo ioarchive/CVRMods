@@ -1,18 +1,18 @@
 using ABI_RC.Core;
 using ABI_RC.Core.Player;
-using Bluscream;
+using RestartButton;
 using MelonLoader;
 using System;
 using System.Diagnostics;
 using System.IO;
 using UnityEngine;
 using ButtonAPI = ChilloutButtonAPI.ChilloutButtonAPIMain;
-using Main = Bluscream.Main;
+using Main = RestartButton.Main;
 
 [assembly: MelonInfo(typeof(Main), Guh.Name, Guh.Version, Guh.Author, Guh.DownloadLink)]
 [assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]
 
-namespace Bluscream;
+namespace RestartButton;
 
 public static class Guh {
     public const string Name = "RestartButton";
