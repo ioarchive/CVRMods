@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestartButton", "RestartButton\RestartButton.csproj", "{D84EB505-4AAD-4871-8D86-09BAEB59CB17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresenceChanger", "PresenceChanger\PresenceChanger.csproj", "{F32F60B5-08F0-452D-A17B-8F2EC549B962}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopFlying", "StopFlying\StopFlying.csproj", "{2F87223D-C638-4D60-8915-B8147F7E56B4}"
 EndProject
 Global
@@ -16,10 +14,6 @@ Global
 		{D84EB505-4AAD-4871-8D86-09BAEB59CB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D84EB505-4AAD-4871-8D86-09BAEB59CB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84EB505-4AAD-4871-8D86-09BAEB59CB17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F32F60B5-08F0-452D-A17B-8F2EC549B962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F32F60B5-08F0-452D-A17B-8F2EC549B962}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F32F60B5-08F0-452D-A17B-8F2EC549B962}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F32F60B5-08F0-452D-A17B-8F2EC549B962}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F87223D-C638-4D60-8915-B8147F7E56B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2F87223D-C638-4D60-8915-B8147F7E56B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F87223D-C638-4D60-8915-B8147F7E56B4}.Release|Any CPU.ActiveCfg = Release|Any CPU

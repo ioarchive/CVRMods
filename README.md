@@ -16,30 +16,17 @@ These mods have no affiliation with and are not endorsed by Alpha Blend Interact
 
 # Mods
 
+### RestartButton
+Restart the game with a button configurable in MelonPrefs.
+Uses ChilloutButtonAPI for the menu button
+
 ### StopFlying
 If you toggle flying before loading into another world most of the time you continue flying.\
-This mod disables your flying when you load into a world. 
-
-### Presence Changer
-
-kinda misleading for now but eh
-- Allows you to change or turn off CVR's built in Discord rich presence.
-
-Currently implemented:
-- Change Application ID
-- Disable the rich presence
-
-Coming later:
-- Large/Small Image Keys & Text, persist after game changes them again (world switch, etc)
-- String templating and Buttons may be implemented in the future if I have time. Pull Requests are always welcome. 
-
+This mod disables your flying when you load into a world.
 
 ---
-
+WIP/Deprecated/Useless mods
 
 ### [OBS Control](https://github.com/aniiiiiimal/obscontrol)
 An WIP port of my VRChat mod, which is a somewhat-port of a beat saber mod with the same name\
-OBSControl is hosted in its own repository [here](https://github.com/aniiiiiimal/obscontrol) - on the `cvr` branch (not pushed to github yet)
-
-### RestartButton
-Press `Equals` to restart the game. Currently doesn't work because it detects the newly opened game as a duplicate instance.
+OBSControl is hosted in its own repository [here](https://github.com/aniiiiiimal/obscontrol) - on the `cvr` branch (unfinished)

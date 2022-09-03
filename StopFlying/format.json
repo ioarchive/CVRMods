@@ -1,0 +1,18 @@
+{
+  "_id": 34,
+  "name": "StopFlying",
+  "modversion": "1.0.0",
+  "gameversion": "2022r165",
+  "loaderversion": "0.5.4",
+  "modtype": "Mod",
+  "author": "Animal",
+  "description": "If you toggle flying before loading into another world most of the time you continue flying. This mod toggles flight off when you load into another world.",
+  "searchtags": [
+    "fly", "flight", "disable"
+  ],
+  "requirements": [],
+  "downloadlink": "https://github.com/aniiiiiimal/CVRMods/releases/download/1.0.0/StopFlying.dll",
+  "sourcelink": "https://github.com/aniiiiiimal/CVRMods",
+  "changelog": "Initial release",
+  "embedcolor": "#52d6fa"
+}
