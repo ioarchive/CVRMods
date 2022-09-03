@@ -18,7 +18,7 @@ public static class Guh
 {
     public const string Name = "RestartButton";
     public const string Author = "Animal & Bluscream";
-    public const string Version = "1.1.0";
+    public const string Version = "1.1.1";
     public const string DownloadLink = "https://github.com/Aniiiiiimal/CVRMods";
 }
 
@@ -41,7 +41,7 @@ start """" {2}
         var cat = MelonPreferences.CreateCategory(Guh.Name);
         keybind = cat.CreateEntry("restart_bind", KeyCode.End, "Restart Key Bind",
             "Key to press to restart game");
-        vrFailsafe = cat.CreateEntry("vr_failsave", false, "VR Failsafe",
+        vrFailsafe = cat.CreateEntry("vr_failsafe", false, "VR Failsafe",
             "Failsafe option to detect VR even if the command line arguments don't provide it");
         ButtonAPI.OnInit += () =>
         {
@@ -54,7 +54,7 @@ start """" {2}
         logger.Warning("Restarting!");
         MelonPreferences.Save();
         var filename = $"{Process.GetCurrentProcess().ProcessName}.exe";
-        var args = $"\"{string.Join(" ", Environment.GetCommandLineArgs())}\"";
+        var args = $"{string.Join(" ", Environment.GetCommandLineArgs()).Replace($"{Environment.CurrentDirectory}\\ChilloutVR.exe", "")}";
         // MelonLogger.Warning(PlayerSetup.Instance._inVr ? "IN VR" : "NOT IN VR");
         // MelonLogger.Warning(PlayerSetup.Instance.vrHeadTracker.activeSelf ? "VR HEADSET ACTIVE" : "VR HEADSET INACTIVE");
         logger.Warning("Game start args: " + args);
@@ -63,7 +63,7 @@ start """" {2}
             args += " -vr";
         }
         
-        File.WriteAllText("restart.bat", string.Format(BatTemplate, filename, 3, args.Replace("%", "%%")));
+        File.WriteAllText("restart.bat", string.Format(BatTemplate, filename, 3, $"\"{Environment.CurrentDirectory}\\ChilloutVR.exe\" {args}"));
         _ = Process.Start(new ProcessStartInfo
             {FileName = "restart.bat", CreateNoWindow = true, WindowStyle = ProcessWindowStyle.Hidden});
         RootLogic.Instance.QuitApplication();
